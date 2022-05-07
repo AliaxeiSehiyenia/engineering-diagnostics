@@ -21,6 +21,7 @@
 
 .menu-icon {
   margin: 29px 0;
+  cursor: pointer;
 }
 
 .header-logo > img {
@@ -34,7 +35,7 @@
   justify-content: space-between;
 }
 
-.header-contacts__label {
+.header-contacts__p {
   font-size: 12px;
   line-height: 12px;
   letter-spacing: -0.5px;
@@ -56,7 +57,7 @@
     'b c c';
 }
 
-.header-contacts__email > label {
+.header-contacts__email > p {
   grid-area: a;
   margin-bottom: 6px;
 }
@@ -93,7 +94,7 @@
   opacity: 0.5;
 }
 
-.header-contacts__phone > label {
+.header-contacts__phone > p {
   grid-area: b;
 }
 
@@ -151,19 +152,17 @@
   border: none;
   border-radius: 2px;
   margin-bottom: 40px;
-}
-
-.welcome__btn > svg {
-  margin-right: 12px;
-}
-
-.welcome__btn > p {
   font-family: Gilroy;
   font-size: 12px;
   line-height: 15px;
   letter-spacing: 2px;
   text-transform: uppercase;
   color: var(--black);
+  cursor: pointer;
+}
+
+.welcome__btn > svg {
+  margin-right: 12px;
 }
 
 .welcome-container__btn > p {
