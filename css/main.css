@@ -432,4 +432,8 @@
   .step1-wrapper-chief > h6 {
     margin-bottom: 40px;
   }
+
+  .card:nth-child(1) {
+    margin-left: 20px;
+  }
 }
