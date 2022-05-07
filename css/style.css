@@ -1,0 +1,63 @@
+@font-face {
+  font-family: proximanova;
+  src: url('../assets/fonts/proximanova_light.otf');
+}
+
+@font-face {
+  font-family: Gilroy;
+  src: url('../assets/fonts/Gilroy-ExtraBold.otf');
+}
+
+@font-face {
+  font-family: Bebas;
+  src: url('../assets/fonts/Bebas-Neue-Cyrillic.ttf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --light: #ffffff;
+  --yellow: #fee040;
+  --black: #000000;
+  --black-text: #151515;
+}
+
+.body {
+  font-family: proximanova;
+  font-weight: 600;
+  color: var(--light);
+}
+
+.container {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1420px;
+  width: calc(100% - 40px);
+}
+
+/* Footer styles start */
+.footer {
+  background-image: url(../assets/img/bg-services.jpg);
+}
+
+.footer-container {
+  display: flex;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-container > a {
+  text-decoration: none;
+  font-size: 22px;
+  line-height: 22px;
+  color: var(--black);
+}
+
+.footer-year {
+  margin-right: 40px;
+}
+/* Footer styles end */
